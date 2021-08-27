@@ -3,7 +3,7 @@ body {
     justify-content: center;
     background-color: rgb(241, 241, 241);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: larger;
     font-weight: 500;
     
 }
@@ -21,3 +21,13 @@ img{
  padding-top: 1rem;
  text-align: center;
 }
+.container {
+    position: relative;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+  }
